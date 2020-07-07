@@ -28,7 +28,7 @@
                                                     {{ $task->description }}
                                                 </p>
                                                 <p class="card-body">
-                                                    <strong>Due Date:</strong>{{ $task->due_date->format('d/y/Y') }}
+                                                    <strong>Due Date:</strong>{{ $task->due_date->format('d/m/Y') }}
                                                 </p>
                                             </div>
                                         </div>
